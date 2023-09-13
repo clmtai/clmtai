@@ -63,4 +63,4 @@ in the mothballs due to a company that I founded. The summer of 2023 isn't yet f
 spikes in climate extremes that we have [witnessed this year](https://www.theguardian.com/world/2023/sep/06/summer-of-2023-hottest-recorded-in-wake-up-call-to-cut-carbon-emissions)
 made me really reconsider what I spend my time on.
 
-If this sounds interesting, drop a mail to anton <at> bossenbroek.photo.
+If this sounds interesting, drop a mail at: anton \<at\> bossenbroek.photo.
