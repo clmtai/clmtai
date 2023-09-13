@@ -1,9 +1,10 @@
 # ClmtAI
 The red pill Generative AI model that show us what our future world will look like in
-different climate change scenarios. ClmtAI will allow us to ask natural language models
-to query how a place on the world will look like in the future under different scenarios.
-To provide the answers, the ClmtAI will leverage AI climate models, satellite imagery, 
-and existing landscape and cityscape photography and videography. 
+different climate change scenarios. ClmtAI will allow a user to ask using
+natural language how a place on the world will look in the future under
+different scenarios. To provide the answers, the ClmtAI model will leverage AI
+climate models, satellite imagery, and existing landscape and cityscape
+photography and videography. 
 
 Below follows a mock up query that demonstrate the funcionality of ClmtAI.
 
@@ -42,9 +43,10 @@ Image sources: Google images, Google earth and Midjourney.
 
 ## Current status
 
-We are just starting our journey! We will start as a free project, it is possible that some parts of the 
-projects may be spun off as commercial enterprises to help companies and individuals better prepare 
-for the impact of climate change.
+We are just starting our journey! We will start as a open source project, it is
+possible that some parts of the projects may be spun off as commercial
+enterprises to help governments, NGOs, companies and/or individuals better
+prepare for the impact of climate change.
 
 ## Tasks for new joiners
 If you want to join, here are some of the things we could be working on:
@@ -53,8 +55,17 @@ If you want to join, here are some of the things we could be working on:
   - create onboarding guide to learn about LLM fine tuning
   - create onboarding guide to learn about Generative AI models to create photorealistic images
   - create onboarding guide to learn about climate modeling with AI
+  - create onboarding guide how to consume less energy with computing
 
-and much much more!
+and much much more! 
+
+What you will get:
+
+ - work on a problem that is very actual
+ - learn new technology
+ - work with an inspiring team where we want to improve the world
+
+We welcome any background 🦄🌈!
 
 ## History
 
@@ -65,5 +76,13 @@ at night (ALAN). The package [pyalanisys](https://github.com/pyalanysis/pyalanys
 in the mothballs due to a company that I founded. The summer of 2023 isn't yet finished and the incredible
 spikes in climate extremes that we have [witnessed this year](https://www.theguardian.com/world/2023/sep/06/summer-of-2023-hottest-recorded-in-wake-up-call-to-cut-carbon-emissions)
 made me really reconsider what I spend my time on.
+
+Prior to starting this company I worked over 14 years developing and deploying
+AI models for large companies throughout the world. Part of my experience was on deploying machine 
+learning models to reduce downtime such as catastrophic failure in heavy
+industries such as the Oil & Gas industry. I went in hoping to see that saved money would be invested
+in the energy transition, unfortunately that was not the case. These
+observations lead me to start my own company.
+
 
 If this sounds interesting, drop a mail at: anton \<at\> bossenbroek.photo.
