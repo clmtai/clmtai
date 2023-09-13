@@ -37,6 +37,9 @@ Below follows a mock up query that demonstrate the funcionality of ClmtAI.
 > This is the average scenario, you can ask for the upper and lower bound scenarios to get a better
 > indication of the uncertainty of the predictions used in my modelling
 
+Image sources: Google images, Google earth and Midjourney.
+
+
 ## Current status
 
 We are just starting our journey! We will start as a free project, it is possible that some parts of the 
