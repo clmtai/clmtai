@@ -119,8 +119,8 @@ queries to be run on the satellite data.
 ## Tasks for new joiners
 If you want to join, here are some of the things we could be working on:
  
-  - create onboarding guide to learn about Geospatial data analysis
-  - create onboarding guide to learn about LLM fine tuning
+  - create onboarding guide to learn about Geospatial data analysis (priority for MVP 1)
+  - create onboarding guide to learn about LLM fine tuning (priority for MVP 1)
   - create onboarding guide to learn about Generative AI models to create photorealistic images
   - create onboarding guide to learn about climate modeling with AI
   - create onboarding guide how to consume less energy with computing
