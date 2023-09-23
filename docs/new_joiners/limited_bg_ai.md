@@ -20,3 +20,8 @@ We cover introductions by major field of expertise
 ## GeoSpatial Intro
 - TODO
 
+## LLM Intro
+High-level overview and hands-on:
+- A mellow introduction to language models and generative AI: [How GPT models work](https://towardsdatascience.com/how-gpt-models-work-b5f4517d5b5)
+- LLMs from a practical perspective: [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
+- Putting the golden layer on a language model and make for a human like chat experience: [RLHF: Reinforcement Learning from Human Feedback](https://huyenchip.com/2023/05/02/rlhf.html)
