@@ -37,7 +37,7 @@ $ jupyter nbextension enable jupytext --user --py
 
 Create a notebook as you would normally do.
 
-### Step 4: Link the Jupyter Notebook to a Markdown File 
+### Step 4: Link the Jupyter Notebook to a Markdown File
 
 To link a markdown file to a notebook, you head to Jupyter notebook. There, in the menu go to `File > Jupytext > Pair Notebook with Markdown`
 
