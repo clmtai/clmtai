@@ -5,14 +5,31 @@ repos:
       - id: check-yaml
       - id: end-of-file-fixer
       - id: trailing-whitespace
+
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.7.0
     hooks:
     - id: nbqa-black
       additional_dependencies: [black==23.9.1]
     - id: nbqa-pyupgrade
-      additional_dependencies: [pyupgrade==2.7.3]
+      additional_dependencies: [pyupgrade==3.13.0]
+      args: [--py311-plus]
     - id: nbqa-isort
-      additional_dependencies: [isort==5.6.4]
+      additional_dependencies: [isort==5.11.5]
     - id: nbqa-ruff
       additional_dependencies: [ruff==0.0.291]
+      args: [--fix]
+
+  - repo: https://github.com/mwouts/jupytext
+    rev: v1.15.2
+    hooks:
+    - id: jupytext
+      args: [--sync, --pipe, black]
+      additional_dependencies:
+        - black==23.9.1 # Matches hook
+
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+    - id: black
+      language_version: python3
