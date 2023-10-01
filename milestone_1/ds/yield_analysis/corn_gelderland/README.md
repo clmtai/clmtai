@@ -46,4 +46,3 @@ Note that you may have to install jupyter and some useful notebook extensions fi
 ```sh
 $ micromamba install -yc conda-forge  jupyter jupyter_contrib_nbextensions
 ```
-
