@@ -19,7 +19,7 @@ I'd encourage you to come back to Chip Huyen's blog post [Building LLM applicati
 ## 0. All-In-One Resources
 Gain a comprehensive insight into LLMs and their applications. These resources offer both theoretical knowledge and practical applications, enabling you to explore and utilize large language models effectively.
 - The ultimate [LLM Learning Mind Map](https://lucid.app/lucidspark/98705f5a-a385-4820-a648-be35c9d1cda6/edit?page=0_0#)
-- On-hands course, explaining Natural Language Processing, Language Models and how to bring those together with code: [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter0/1?fw=pt)
+- Hands-on course, explaining Natural Language Processing, Language Models and how to bring those together with code: [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter0/1?fw=pt)
 - Intro to LLMs and building applications with LangChain and VectorDBs: [LangChain & Vector Databases in Production](https://learn.activeloop.ai/courses/langchain) - 40 hours course
 
 ## 1. High-Level Overview
