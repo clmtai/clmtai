@@ -1,10 +1,10 @@
 
 # LLMs Onboarding Guide
-The following resources will give you a thourough introduction to large language models (LLMs) and how to use them. You can either pick one of the resources listed in [All-In-One Resources](#0-all-in-one-resources) or follow the chapters 1 to 6 in order. Chapter 7 offers more context on generative AI in general. 
+The following resources will thoroughly introduce large language models (LLMs) and how to use them. You can either pick one of the resources listed in [All-In-One Resources](#0-all-in-one-resources) or follow chapters 1 to 6 in order. Chapter 7 offers more context on generative AI in general. 
 
-The essential content for each chapter is marked with a **bold** font, the additional resources offer a more in depth view on the topic.  
+The essential content for each chapter is marked with a **bold** font. Additional resources offer a more in-depth view of the topic.  
 
-I'd encourage you to come back to Chip Huyen's blog post [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html) from time to time. It is listed in chapter 1, but as you learn more about LLMs, you will be able to explore the article more in depth.
+I'd encourage you to come back to Chip Huyen's blog post [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html) from time to time. The article covers a wide range of topics, and as you learn more about LLMs, you will be able to explore these topics further.
 
 ## Table of Contents
 0. [All-In-One Resources](#0-all-in-one-resources)
