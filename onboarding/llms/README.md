@@ -24,6 +24,7 @@ Gain a comprehensive insight into LLMs and their applications. These resources o
 
 ## 1. High-Level Overview
 Embark on your journey into the world of large language models, understanding their basic functioning, potential and use cases.
+- **How can we use traditional ML for language generation: [How do LLMs work? Next Word Prediction with the Transformer Architecture Explained](https://www.youtube.com/watch?v=wl3mbqOtlmM)**
 - **A mellow introduction to language models and generative AI: [How GPT models work](https://towardsdatascience.com/how-gpt-models-work-b5f4517d5b5)**
 - LLMs from a practical perspective: [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
 
