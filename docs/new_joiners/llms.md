@@ -1,8 +1,20 @@
 
 # LLMs Intro
-The following resources will give you a thourough introduction to large language models (LLMs) and how to use them. You can either pick one of the resources listed in [All-in-one resources](#0-all-in-one-resources) or follow the chapters 1 to 6 in order. The essential content for each chapter is marked with a **bold** font, the additional resources offer a more in depth view on the topic.  
+The following resources will give you a thourough introduction to large language models (LLMs) and how to use them. You can either pick one of the resources listed in [All-in-one resources](#0-all-in-one-resources) or follow the chapters 1 to 6 in order. Chapter 7 offers more context on generative AI in general. 
 
-I'd encourage you to come back to Chip Huyen's blog post [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html) from time to time. It is listed in chapter 1, but as you learn more about LLMs, you will understand more and more of the content in this post.
+The essential content for each chapter is marked with a **bold** font, the additional resources offer a more in depth view on the topic.  
+
+I'd encourage you to come back to Chip Huyen's blog post [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html) from time to time. It is listed in chapter 1, but as you learn more about LLMs, you will be able to explore the article more in depth.
+
+## Table of Contents
+0. [All-in-one resources](#0-all-in-one-resources)
+1. [High-level overview](#1-high-level-overview)
+2. [Deep-dive into language and transformers](#2-deep-dive-into-language-and-transformers)
+3. [Training LLMs](#3-training-llms)
+4. [Fine-tuning LLMs](#4-fine-tuning-llms)
+5. [Using LLMs](#5-using-llms)
+6. [Building applications with LLMs](#6-building-applications-with-llms)
+7. [More on generative AI in general](#7-more-on-generative-ai-in-general)
 
 ## 0. All-in-one resources
 Gain a comprehensive insight into LLMs and their applications. These resources offer both theoretical knowledge and practical applications, enabling you to explore and utilize large language models effectively.
