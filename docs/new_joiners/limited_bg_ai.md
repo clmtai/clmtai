@@ -4,7 +4,7 @@ You are a computer scientist interested in contributing to ClmtAI but you have
 limited experience and / or background in AI / ML? Then this page with resources
 is for you!
 
-The purpose of this page is to evolve into an onboarding guide to help you get up to 
+The purpose of this page is to evolve into an onboarding guide to help you get up to
 speed as soon as possible and contribute to ClmtAI as we appreciate your
 interest and enthousiasm!
 
