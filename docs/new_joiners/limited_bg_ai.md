@@ -15,6 +15,7 @@ We cover introductions by major field of expertise
 - For an incredible intro to machine learning, you can head to [Machine
   Learning
   Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
+- For a more concise intro to machine learning watch Cassie Kozyrkov's [Making Friends with Machine Learning series](https://www.youtube.com/watch?v=lYWt-aCnE2U&list=PLRKtJ4IpxJpB_2ei8-5eWU31EZ6uSj9_s)
 
 
 ## GeoSpatial Intro
