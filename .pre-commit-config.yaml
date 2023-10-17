@@ -24,7 +24,7 @@ repos:
     rev: v1.15.2
     hooks:
     - id: jupytext
-      args: [--pipe, black]
+      args: [--sync,--pipe, black]
       additional_dependencies:
         - black==23.9.1 # Matches hook
 
