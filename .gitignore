@@ -180,3 +180,4 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+milestone_1/crop_yield/trials.ipynb
