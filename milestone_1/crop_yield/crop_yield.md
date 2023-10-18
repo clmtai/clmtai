@@ -403,6 +403,7 @@ for file in files[0:5]:
 ```
 
 ```python
+%%time
 def averageNDVI(output_path: list[str]) -> np.ndarray:
     """
     Calculate the average NDVI from a list of output paths.
@@ -459,6 +460,108 @@ plt.legend()
 plt.show()
 ```
 
-```python
 
+
+
+Dask Tutorial
+
+In This tutorial we will try to apply Dask to our methodologies.
+
+Dask is a parallel and distributed computing library that scales the existing Python and PyData ecosystem.
+
+Dask can scale up to your full laptop capacity and out to a cloud cluster.
+
+
+```python
+import dask
+from dask.distributed import Client
+
+client = Client(n_workers=4)
 ```
+
+```python
+%%time
+@dask.delayed
+def averageNDVI(output_path: list[str]) -> np.ndarray:
+    """
+    Calculate the average NDVI from a list of output paths.
+
+    Args:
+        output_path: A list of output file paths.
+
+    Returns:
+        The average NDVI as a numpy array.
+    """
+    values = []
+
+    # Iterate over each output file path
+    for path in output_path:
+        # Open the geotiff dataset
+        geotiff_dataset: gdal.Dataset = gdal.Open(path)
+
+        # Get the first band (NDVI band)
+        band_ndvi: gdal.Band = geotiff_dataset.GetRasterBand(1)
+
+        # Read the NDVI values as an array
+        values.append(band_ndvi.ReadAsArray())
+
+    # Calculate the average NDVI
+    average_ndvi = np.average(values, axis=0)
+    return average_ndvi
+
+
+@dask.delayed
+def wrapper():
+    output_directory: str = "./NDVI_Images/"
+    files: list[str] = glob.glob(os.path.join(output_directory, "NDVI*.tif"))
+    files.sort()
+
+    values = []
+
+    # Iterate over the files in groups of 3
+    for i in range(0, len(files), 3):
+        # Calculate the average NDVI for the current group of files
+        z = averageNDVI(files[i : i + 3])
+
+        average_ndvi = z.compute()
+
+        # Append the variance of the average NDVI to the list of values
+        values.append(np.var(average_ndvi))
+
+    # Create indices for the plot
+
+    return np.array(values)
+
+
+z = wrapper()
+result = dask.compute(z)
+indices = range(len(result))
+# Create a plot of the variance of the NDVI values
+plt.figure(figsize=(10, 20))
+plt.plot(result[0], label="NDVI")
+plt.xlabel("Index")
+plt.ylabel("Values")
+plt.title("Variance of NDVI 8Days data averaged over 3 data points")
+plt.legend()
+plt.show()
+```
+
+
+
+
+Let's Take a Look at Both User Metrics (With Dask, Without Dask)<br>
+<code>
+- Without Dask:<br>
+    - CPU times: user 8.51 s, sys: 4.51 s, total: 13 s<br>
+    - Wall time: 15.9 s
+</code>
+<br>
+<code>
+- With Dask: <br>
+    - CPU times: user 4.16 s, sys: 429 ms, total: 4.59 s<br>
+    - Wall time: 19.3 s<br>
+</code>
+
+A Close look, we see that total execution time using dask is far more better than total execution time without dask:<br> `(4.59 seconds : 13 seconds)`<br>
+This is due to parallelism and distributed calculations using dask which is a lot useful<br>
+Following will be acquiring data using Dask from modis servers.

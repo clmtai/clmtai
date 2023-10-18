@@ -50,7 +50,10 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-
+#data files
+*.tif
+*.hdf
+*.xml
 # Unit test / coverage reports
 htmlcov/
 .tox/
