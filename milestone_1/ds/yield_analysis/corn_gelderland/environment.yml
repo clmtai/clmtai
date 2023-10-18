@@ -1,0 +1,14 @@
+name: clmt-corn-yield-modis
+channel:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - scikit-image
+  - geopandas
+  - pandas
+  - numpy
+  - ipykernel
+  - pip
+  - pip:
+    - pyModis
